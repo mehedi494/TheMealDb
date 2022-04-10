@@ -120,7 +120,7 @@ const displaySingleMeal = mealId => {
     const col = document.createElement("div")
     col.classList.add('col')
 
-    col.innerHTML = `<div class=" mb-3  mx-auto" style="width:600px;  border:1px solid gray">
+    col.innerHTML = `<div class=" mb-3  mx-auto" style="width:20rem;  border:1px solid gray">
   <img src="${mealId.strMealThumb}" class="card-img-top "  alt="...">
   <div class="card-body">
     <h5 class="card-title">${mealId.strMeal}</h5>
